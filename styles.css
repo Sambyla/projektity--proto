@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
+body {
+    margin: 0;
+    background-color: #101316;
+    color: #fdd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: brown;
+    color: white;
+    font-family: Inconsolata, monospace;
+    padding: 2em;
+    text-align: center;
+}
+
+h2 {
+    font-family: Inconsolata, monospace;
+}
+
+.centeredtext {
+    font-family: Inconsolata, monospace;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.navbutton {
+    display:inline-block;
+    padding: 1em;
+    background-color: indianred;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin: 0.5em;
+    width: 10em;
+}
+
+.navbutton:hover, .navbutton:active {
+    background-color: brown;
+}
+
+.navbutton a {
+    text-decoration: none;
+    color: white;
+}
+
+.inputarea {
+    display:flex;
+    width: 60% ;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+input, textarea {
+    width: 100%;
+    flex-grow: 1;
+}
+
+#sendbutton {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.centeredtext, .centered {
+    text-align: center;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsitem {
+    border: solid 3px;
+    padding: 1em 2em;
+    border-radius: 2em;
+    width: 40%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
